@@ -1,0 +1,44 @@
+# vim: ts=2 sw=2 et
+
+baseURL: "https://ahal.ca/"
+languageCode: "en-us"
+title: "Searching for the Shmoo"
+theme: "hugo-theme-bootstrap4-blog"
+copyright: Andrew Halberstadt
+
+paginate: 10
+sectionPagesMenu: "navbar"
+
+permalinks:
+  blog: "/blog/:year/:slug/"
+  page: "/:slug/"
+
+
+menu:
+  #sidebar:
+    #- name: "Link 1"
+    #  url: "https://example.com"
+    #- name: "Link 2"
+    #  url: "https://example.org"
+
+  navbar:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+
+# Theme variables
+params:
+  author: "Andrew Halberstadt"
+  description: "Ramblings related to my work at Mozilla and other projects."
+  date_format: "Jan 02, 2006"
+  sidebar:
+    num_recent_posts: 10
+    tag_cloud: true
+  social:
+    mastodon: "ahal@mastodon.club"
+    twitter: "halbersa"
+
+PygmentsCodeFences: true
+PygmentsStyle: "monokai"
+PygmentsOptions:
+  linenos: table
