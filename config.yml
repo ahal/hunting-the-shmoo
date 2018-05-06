@@ -1,6 +1,6 @@
 # vim: ts=2 sw=2 et
 
-baseURL: "https://ahal.ca/"
+baseURL: "https://ahal.github.io/"
 languageCode: "en-us"
 title: "Searching for the Shmoo"
 theme: "hugo-theme-bootstrap4-blog"
