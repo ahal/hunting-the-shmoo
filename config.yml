@@ -1,8 +1,8 @@
 # vim: ts=2 sw=2 et
 
-baseURL: "https://ahal.github.io/"
+baseURL: "https://ahal.ca/"
 languageCode: "en-us"
-title: "Searching for the Shmoo"
+title: "Hunting the Shmoo"
 theme: "hugo-theme-bootstrap4-blog"
 copyright: Andrew Halberstadt
 
