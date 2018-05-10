@@ -1,10 +1,12 @@
 # vim: ts=2 sw=2 et
 
-baseURL: "https://ahal.ca/"
-languageCode: "en-us"
 title: "Hunting the Shmoo"
+baseURL: "https://ahal.ca/"
+copyright: "© 2018 Andrew Halberstadt"
+
+languageCode: "en-us"
 theme: "hugo-theme-bootstrap4-blog"
-copyright: Andrew Halberstadt
+disqusShortname: "ahal"
 
 paginate: 10
 sectionPagesMenu: "navbar"
