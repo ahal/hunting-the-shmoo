@@ -39,6 +39,11 @@ params:
   social:
     mastodon: "ahal@mastodon.club"
     twitter: "halbersa"
+  #staticman:
+    #stbaseurl: "https://api.staticman.net/v2/entry"
+    #stuser: "ahal"
+    #strepo: "hunting-the-shmoo"
+    #stbranch: "master"
 
 PygmentsCodeFences: true
 PygmentsStyle: "monokai"

@@ -1,0 +1,18 @@
+comments:
+    name: "staticman@ahal.ca"
+    moderation: true
+    allowedOrigins: ["localhost", "ahal.ca"]
+
+    commitMessage: "New comment in {options.slug}"
+    branch: "master"
+    path: "data/comments/{options.slug}"
+    filename: "comment-{@timestamp}"
+    format: "yaml"
+
+    allowedFields: ["name", "email", "url", "msg"]
+    requiredFields: ["name", "msg"]
+    generatedFields:
+        date:
+            type: date
+            options:
+                format: "iso8601"
