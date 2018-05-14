@@ -1,0 +1,8 @@
+date: '2013-04-17T18:39:39Z'
+email: halbersa@gmail.com
+msg: '<p>This example isn''t quite copy + paste-able. The namespace "com.example.androidapp"
+  should be replaced with whatever the namespace of your app is. I didn''t mean for
+  you to use the actual android example namespace. So for example: <a href="https://github.com/ahal/taedium-android/blob/master/taedium/res/layout/view_fragment.xml#L35"
+  rel="nofollow noopener" title="https://github.com/ahal/taedium-android/blob/master/taedium/res/layout/view_fragment.xml#L35">https://github.com/ahal/tae...</a></p>'
+name: ahal
+slug: android-expandable-panel

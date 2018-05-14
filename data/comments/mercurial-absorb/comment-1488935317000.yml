@@ -1,0 +1,7 @@
+date: '2017-03-07T20:08:37Z'
+email: halbersa@gmail.com
+msg: <p>Interesting, I verified I was able to compile without the lz4 dependency on
+  Fedora. But added a note that it might be required on OSX. Thanks for mentioning
+  it!</p>
+name: ahal
+slug: mercurial-absorb

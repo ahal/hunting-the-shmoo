@@ -1,0 +1,6 @@
+date: '2016-08-08T17:15:57Z'
+email: joel.maher@gmail.com
+msg: <p>does RR work on a process running inside of docker?  We might need to run
+  docker with different permissions- it might not be as straightforward.</p>
+name: Joel Maher
+slug: taskcluster-interactive-loaner

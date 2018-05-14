@@ -1,0 +1,9 @@
+date: '2016-10-14T17:32:21Z'
+email: steve@holdenweb.com
+msg: <p>But using composition you can use an instance of an object that uses reflection
+  to get members, and call _its_ toJSON() method. This also allows you to use dependency
+  injection, making it easier to test the code using a mock object and to use different
+  types of object to implement toJSON(). This more flexible approach loosens coupling
+  and makes designs more readily adaptable.</p>
+name: holdenweb
+slug: when-would-you-use-python-mixin

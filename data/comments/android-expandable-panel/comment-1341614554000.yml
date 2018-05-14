@@ -1,0 +1,11 @@
+date: '2012-07-06T17:42:34Z'
+email: halbersa@gmail.com
+msg: "<p>\_You get that error message when you don't supply a valid handle widget\
+  \ contained inside the expandable panel.</p><p>        mHandle = findViewById(mHandleId);<br>\
+  \        if (mHandle == null) {<br>            throw new IllegalArgumentException(<br>\
+  \                \"The handle attribute is must refer to an\"<br>              \
+  \      + \" existing child.\");<br>        }</p><p>It looks like you changed the\
+  \ handle attribute name from handle to ehandle. If this was on purpose you need\
+  \ to make sure your attrs.xml is updated to reflect this.</p>"
+name: ahal
+slug: android-expandable-panel

@@ -1,0 +1,7 @@
+date: '2017-06-09T11:37:45Z'
+email: davidshepherd7@gmail.com
+msg: <p>These instructions don't work with the latest version of the hg-experimental
+  repository. I had to do `hg up 67b29af73e62` to get it to work (I picked that revision
+  because it's one after the last commit modifying absorb before your post).</p>
+name: David Shepherd
+slug: mercurial-absorb

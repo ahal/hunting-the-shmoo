@@ -1,0 +1,7 @@
+date: '2014-03-04T16:42:37Z'
+email: halbersa@gmail.com
+msg: <p>Cool. My workflow used to involve a lot of symlinking as well. Another one
+  I've seen is putting a lot of the processing logic in the mozconfigs themselves
+  (since they are just shell scripts).</p>
+name: ahal
+slug: mach-workflow

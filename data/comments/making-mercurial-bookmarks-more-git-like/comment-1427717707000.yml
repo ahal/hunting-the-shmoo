@@ -1,0 +1,11 @@
+date: '2015-03-30T07:15:07Z'
+email: mathias.demare@gmail.com
+msg: <p>This sounds very interesting, especially for things like rebase. Would you
+  perhaps announce your extension on the Mercurial mailing list ( <a href="http://www.selenic.com/pipermail/mercurial"
+  rel="nofollow noopener" title="www.selenic.com/pipermail/mercurial">www.selenic.com/pipermail/m...</a>
+  )? I could imagine quite a bit of interest in this feature.</p><p>It seems like
+  something to eventually add to progressive mode ( <a href="http://mercurial.selenic.com/wiki/FriendlyHGPlan"
+  rel="nofollow noopener" title="http://mercurial.selenic.com/wiki/FriendlyHGPlan">http://mercurial.selenic.co...</a>
+  ).</p>
+name: Mathiasdm
+slug: making-mercurial-bookmarks-more-git-like

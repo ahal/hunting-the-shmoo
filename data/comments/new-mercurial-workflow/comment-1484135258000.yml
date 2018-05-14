@@ -1,0 +1,11 @@
+date: '2017-01-11T06:47:38Z'
+email: yarik.sheptykin@googlemail.com
+msg: <p>Thanks for sharing!</p><p>I have been using this workflow for about a year
+  now and can report that rebase extension is not very helpful when conflicts arise.
+  This makes bookmark workflow comfortable for short-lived patches. Whenever you changeset
+  lives long enough to race with somebody else's work you will have hard times keeping
+  up with central. rebase would live you with a bunch of .rej files without hinting
+  where the merge broke. This problems might affect changesets that touch many things.
+  To my experience using mq in such situations is more comfortable.</p>
+name: Yarik Sheptykin
+slug: new-mercurial-workflow

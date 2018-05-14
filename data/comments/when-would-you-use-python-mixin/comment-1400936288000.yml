@@ -1,0 +1,12 @@
+date: '2014-05-24T07:58:08Z'
+email: jjdelc@gmail.com
+msg: <p>Depends on your need, not always coding is a perfect abstraction of reality.
+  Classes and objects don't always represent real world entities with real world relationships.</p><p>I've
+  found myself using mixins to extend funcionality, to provide base classes. I use
+  Django a lot and using Forms, Views, Admin classes, mixins are a great tool to have.
+  When having a set of related views, if you know the methods you can just write your
+  own and a few helpers and save yourself a lot of coding just by defining classes
+  that inherit from framework provided classes and your mixins, declare a couple of
+  class attributes as configuration and be good to go.</p>
+name: Jj
+slug: when-would-you-use-python-mixin

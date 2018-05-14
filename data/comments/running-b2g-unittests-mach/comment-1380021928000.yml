@@ -1,0 +1,10 @@
+date: '2013-09-24T06:25:28Z'
+email: achaoswing@gmail.com
+msg: <p>In <a href="http://mach_b2g_bootstrap.py" rel="nofollow noopener" title="mach_b2g_bootstrap.py">mach_b2g_bootstrap.py</a>,
+  about line 174, the script try to parse the<br> key/value pair from config file
+  and set them into the enviornment. <br>However, we usually have some complicated
+  logic like if/else in <br>.userconfig [1]. We will have problem in this case.</p><p>[1]
+  <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Customization_with_the_.userconfig_file"
+  rel="nofollow noopener" title="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS/Customization_with_the_.userconfig_file">https://developer.mozilla.o...</a></p>
+name: Szu-Yu Chen
+slug: running-b2g-unittests-mach

@@ -1,0 +1,36 @@
+date: '2014-04-25T21:57:18Z'
+email: sphink@gmail.com
+msg: <p>Repeating yourself really does suck for all kinds of reasons. IMHO, it usually
+  means that you haven't adequately analyzed the tasks at hand. Sharing code because
+  it happens to be exactly the same (or very similar) to other code is a bad idea,
+  true. But if you figure out *why* that code looks the same, then you can usually
+  find that at least part of what it is doing can be thought of more abstractly and
+  implemented once, then called by both of the original places. That boundary should
+  be a semantic boundary, though, not a syntactic one (as in, don't share as much
+  as possible; share just what is needed to implement some human-meaningful portion
+  of the task.) If that means there's still a little duplication before or after the
+  call to the shared portion, so be it.</p><p>But that doesn't mean inheritance. Inheritance
+  isn't a horrible evil, but it requires you to pick one particular dimension to describe
+  things with, and there are often multiple equally valid dimensions to use. "is-a"
+  just isn't a particularly good way to break down a structure. I'm sure there are
+  good best practices or rules of thumb for picking the right dimension, but I don't
+  know what they are. I'm not fond of mozharness's mixins. They've even been the direct
+  cause of bugs in my code, where the fix was to reorder the list of mixins. That
+  doesn't smell good.</p><p>Composition isn't all roses either. You end up nouning
+  verbs a lot -- eg instead of log("foo") and inheriting the appropriate log() behavior,
+  you instead logger.log("foo"). So you end up with a logger and a formatter and a
+  connector and lots of other (verb)ers. All of which need to be constructed and passed
+  in, which leads you into the abstraction hell of factories and factory factories
+  and configuration providers and other such "can't I just write the damn code?!"
+  gunk. But still, it lets you use one (verb)er per dimension, which is really nice.</p><p>Avoiding
+  repetition has real benefits. Obviously, there's the one where you only have to
+  change one place to fix everything. But it's also easier to maintain a coherent
+  architecture when you don't have repeated or half-repeated bits lying all over the
+  place.</p><p>That's about as far as I'm willing to go with an abstract argument.
+  I haven't looked at the test runner code, but for mozharness, I'd really like better
+  separation of Mock environments, running-under-buildbot or not, actions that are
+  exactly the same (modulo some configuration, possibly) across many jobs, and most
+  of all, making actions independent rather than relying on certain other actions
+  to have already been run in a certain order.</p>
+name: SteveFink
+slug: part-2-how-deal-iffy-requirements

@@ -1,0 +1,15 @@
+date: '2014-05-24T14:48:32Z'
+email: wrlach@gmail.com
+msg: <p>Yes, I think it just comes down to the fact that sometimes mixins are an easier
+  way to get the behaviour that you want when expressing concepts that can't simply
+  be defined as "A is a B" or "A has a B". Screwtape's example is good, another one
+  that comes to mind in our code is the droid mixin we use in mozdevice for adding
+  Android-specific functionality to DeviceManager:</p><p><a href="http://mxr.mozilla.org/mozilla-central/source/testing/mozbase/mozdevice/mozdevice/droid.py#16"
+  rel="nofollow noopener" title="http://mxr.mozilla.org/mozilla-central/source/testing/mozbase/mozdevice/mozdevice/droid.py#16">http://mxr.mozilla.org/mozi...</a></p><p>For
+  each implementation (ADB and SUT) we want a base class without the functionality,
+  so a mixin is the best way of generating a new classes with the desired methods.</p><p>You
+  are right about the gotchas though. In general I have found inheritance to not always
+  work how I expect in Python and that includes Mixins. I guess that's the price you
+  pay for its expressiveness vs. (e.g.) Java.</p>
+name: William Lachance
+slug: when-would-you-use-python-mixin

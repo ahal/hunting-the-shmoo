@@ -1,0 +1,8 @@
+date: '2014-05-24T19:32:00Z'
+email: halbersa@gmail.com
+msg: <p>Personally I think self.fennec.launch() is easier to understand than self.launch_fennec()
+  in that case. But I guess that does show that it comes down to personal preference.
+  The example you linked is really clear, but I've seen what happens when mixins get
+  abused. And yes, it is possible to abuse composition as well :)</p>
+name: ahal
+slug: when-would-you-use-python-mixin

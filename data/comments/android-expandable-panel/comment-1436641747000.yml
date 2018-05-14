@@ -1,0 +1,10 @@
+date: '2015-07-11T14:09:07Z'
+email: rahel@habacker.de
+msg: '<p>I am trying to implement your ExpandablePanel and it nearly works. The only
+  Problem: The handle-Widget is not displayed. Tried several widgets like ImageView
+  or Button in die ExpandablePanel and they are displayed until I declare one being
+  ''handle'' (via android:id="@id/handle"). What could be the problem?<br>EDIT: Everything
+  is initialized the correct way. mHandle and mContent are set with the right values
+  in ExpandablePanel (after debugging the process).</p>'
+name: Rahel Habacker
+slug: android-expandable-panel

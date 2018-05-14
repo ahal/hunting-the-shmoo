@@ -1,0 +1,16 @@
+date: '2012-06-30T12:16:26Z'
+email: hamed.ma7@gmail.com
+msg: "<p>Thanks for your effort but I'm getting frustrated using your widget.<br>I'm\
+  \ getting the error: The handle attribute is required and must refer to a valid\
+  \ child.<br>Here is the xml code I use:<br>\_&lt;com.ms.widgets.expandablepanel\
+  \ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_=\"\" android:id=\"@+id/expandablePanel1\"\
+  \ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_=\"\" android:layout_width=\"fill_parent\"\
+  \ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_=\"\" android:layout_height=\"wrap_content\"\
+  \ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_=\"\" expandablepanel:econtent=\"@+id/catsHList\"\
+  \ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_=\"\" expandablepanel:ehandle=\"@+id/catHandle\"\
+  &gt;<br>and I have this on my root element:<br>xmlns:ExpandablePanel=\"<a href=\"\
+  http://schemas.android.com/apk/res/com.ms.rightel.store\" rel=\"nofollow noopener\"\
+  \ title=\"http://schemas.android.com/apk/res/com.ms.rightel.store\">http://schemas.android.com/...</a>\"\
+  </p>"
+name: Hamed
+slug: android-expandable-panel

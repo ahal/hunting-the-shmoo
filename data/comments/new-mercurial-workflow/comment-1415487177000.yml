@@ -1,0 +1,8 @@
+date: '2014-11-08T17:52:57Z'
+email: gregory.szorc@gmail.com
+msg: <p>Excellent post!</p><p>I guess you didn't know that firefoxtree automatically
+  creates aliases for the Firefox repositories. i.e. `hg pull central` just works
+  with no hgrc hacking needed.</p><p>This blog post inspired me to write up some Sphinx
+  docs for firefoxtree tree so its awesomeness is fully realized. Stay tuned...</p>
+name: Gregory Szorc
+slug: new-mercurial-workflow

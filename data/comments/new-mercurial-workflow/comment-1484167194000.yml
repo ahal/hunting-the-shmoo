@@ -1,0 +1,10 @@
+date: '2017-01-11T15:39:54Z'
+email: halbersa@gmail.com
+msg: <p>Whether .rej files show up or not depends on how you have mercurial configured.
+  For example, you could install meld (<a href="http://meldmerge.org/)" rel="nofollow
+  noopener" title="http://meldmerge.org/)">http://meldmerge.org/)</a>, then add:</p><p>[ui]<br>merge
+  = meld</p><p>To your hgrc. Now when hitting conflicts you'll be using a proper 3-way
+  merge tool. I use meld and have not seen .rej files since switching from mq. Meld
+  is just one example, you could use kdiff3 or vimdiff or whatever you want.</p>
+name: ahal
+slug: new-mercurial-workflow

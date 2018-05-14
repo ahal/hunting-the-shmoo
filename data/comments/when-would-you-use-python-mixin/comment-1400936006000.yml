@@ -1,0 +1,12 @@
+date: '2014-05-24T07:53:26Z'
+email: thristian@gmail.com
+msg: <p>A good example of mixins in Python would be the "<a href="http://collections.abc"
+  rel="nofollow noopener" title="collections.abc">collections.abc</a>" module in the
+  standard library. For example, if you implement __getitem__() and __len__() then
+  inherit from collections.abc.Sequence, you automatically get implementations of
+  __contains__(), __iter__(), __reversed__(), index() and count() methods. If you
+  used composition, you would have to manually define each of those methods to call
+  the equivalent method on your internal Sequence object, which is certainly possible
+  but also pretty tedious.</p>
+name: Screwtape
+slug: when-would-you-use-python-mixin

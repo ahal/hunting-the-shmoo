@@ -6,7 +6,6 @@ copyright: "© 2018 Andrew Halberstadt"
 
 languageCode: "en-us"
 theme: "hugo-theme-bootstrap4-blog"
-disqusShortname: "ahal"
 
 paginate: 10
 sectionPagesMenu: "navbar"
@@ -39,11 +38,11 @@ params:
   social:
     mastodon: "ahal@mastodon.club"
     twitter: "halbersa"
-  #staticman:
-    #stbaseurl: "https://api.staticman.net/v2/entry"
-    #stuser: "ahal"
-    #strepo: "hunting-the-shmoo"
-    #stbranch: "master"
+  staticman:
+    baseurl: "https://api.staticman.net/v2/entry"
+    user: "ahal"
+    repo: "hunting-the-shmoo"
+    branch: "master"
 
 PygmentsCodeFences: true
 PygmentsStyle: "monokai"

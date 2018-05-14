@@ -1,0 +1,7 @@
+date: '2015-03-30T14:35:29Z'
+email: halbersa@gmail.com
+msg: <p>Ah, I confess I have no idea how git's branches work under the hood. But bookmarks
+  are also pointers to commits, and this extension sort of massages the cli to deal
+  with them a bit better.. so maybe git-like isn't so far off?</p>
+name: ahal
+slug: making-mercurial-bookmarks-more-git-like

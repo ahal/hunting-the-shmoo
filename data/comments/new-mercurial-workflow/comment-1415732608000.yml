@@ -1,0 +1,10 @@
+date: '2014-11-11T14:03:28Z'
+email: halbersa@gmail.com
+msg: <p>You mean a twig like alder or birch? As long as it's a repo firefoxtree knows
+  about (<a href="https://hg.mozilla.org/hgcustom/version-control-tools/file/a7462aae407b/pylib/mozautomation/mozautomation/repository.py#l45)"
+  rel="nofollow noopener" title="https://hg.mozilla.org/hgcustom/version-control-tools/file/a7462aae407b/pylib/mozautomation/mozautomation/repository.py#l45)">https://hg.mozilla.org/hgcu...</a>
+  then it shouldn't be any different from rebasing on top of central.</p><p>hg rebase
+  works similarly to git rebase. If there's a conflict it will suspend, you have to
+  fix the conflict manually and then run `hg rebase --continue`.</p>
+name: ahal
+slug: new-mercurial-workflow

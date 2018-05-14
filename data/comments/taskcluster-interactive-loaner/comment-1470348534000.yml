@@ -1,0 +1,8 @@
+date: '2016-08-04T17:08:54Z'
+email: jopsen@gmail.com
+msg: <p>@benoit_girard:disqus, jhford is currently working on a provisioning service
+  for Digital Ocean, once that's up deploying our worker there shouldn't be too hard..
+  Obviously, that'll be different hardware from what the EC2 nodes are running on,
+  but same docker images.</p>
+name: Jonas
+slug: taskcluster-interactive-loaner

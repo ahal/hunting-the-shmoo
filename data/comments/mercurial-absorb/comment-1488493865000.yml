@@ -1,0 +1,8 @@
+date: '2017-03-02T17:31:05Z'
+email: quark@lihdd.net
+msg: <p>FYI I had a note about absorb at <a href="http://files.lihdd.net/hgabsorb-note.pdf"
+  rel="nofollow noopener" title="files.lihdd.net/hgabsorb-note.pdf">files.lihdd.net/hgabsorb-no...</a>.
+  With  `--component absorb` appended to <a href="http://setup.py" rel="nofollow noopener"
+  title="setup.py">setup.py</a>, lz4-devel and openssl-devel could be unnecessary.</p>
+name: Jun Wu
+slug: mercurial-absorb

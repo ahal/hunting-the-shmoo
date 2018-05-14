@@ -1,0 +1,17 @@
+date: '2014-03-04T11:39:54Z'
+email: ato@sny.no
+msg: '<p>This is pretty useful!  Not knowing about this tool I did something very
+  similar, but much cruder, by symlinking my current active mozconfig file to the
+  configuration I want to build for:</p><p>~/dev/gecko % ls -l src/mozconfig<br>lrwxr-xr-x  1
+  ato  staff  26 22 Feb 18:22 src/mozconfig -&gt; ../mozconfig/desktop-debug<br>~/dev/gecko
+  % ls -l mozconfig <br>lrwxr-xr-x  1 ato  staff  33 22 Feb 17:46 mozconfig -&gt;
+  /Users/ato/dev/dotfiles/mozconfig<br>~/dev/gecko % ls -l ~/dev/dotfiles/mozconfig
+  <br>total 32<br>-rw-r--r--  1 ato  staff  125 22 Feb 17:46 b2g<br>-rw-r--r--  1
+  ato  staff  225 22 Feb 17:46 common<br>-rw-r--r--  1 ato  staff  204 22 Feb 17:46
+  desktop-debug<br>-rw-r--r--  1 ato  staff  141 22 Feb 17:46 desktop-release</p><p>So
+  when I want to build a desktop opt build instead I do:</p><p>% rm mozconfig<br>%
+  ln -s ../mozconfig/desktop-release mozconfig</p><p>My mozconfig''s, which may not
+  be so great, are here: <a href="https://github.com/andreastt/dotfiles/tree/master/mozconfig"
+  rel="nofollow noopener" title="https://github.com/andreastt/dotfiles/tree/master/mozconfig">https://github.com/andreast...</a></p>'
+name: Andreas Tolfsen
+slug: mach-workflow

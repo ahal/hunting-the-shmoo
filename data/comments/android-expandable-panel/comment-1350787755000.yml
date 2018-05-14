@@ -1,0 +1,8 @@
+date: '2012-10-20T21:49:15Z'
+email: mikew5673@gmail.com
+msg: <p>I try to built my own application with your solution. Setting the</p><p>//
+  Does the panel start expanded?<br> private boolean mExpanded = true;</p><p>does
+  not show the desired effect (the ExpandablePanel is visible).</p><p>What can I do
+  to force an expanded panel after first inflating?<br></p>
+name: Mike
+slug: android-expandable-panel

@@ -1,0 +1,10 @@
+date: '2011-11-07T19:25:30Z'
+email: ctalbert@mozilla.com
+msg: "<p>Great post, Andrew, thanks for all your hard work here.\_ I wanted to add\
+  \ that Andrew is also working with Release Engineering to get this test harness\
+  \ turned on for Tryserver first.\_ This way, we will give the developers the ability\
+  \ to try out tests with the new harness before we land it on other trees. (This\
+  \ gives us the ability to do a find/fix cycle on the harness before putting it on\
+  \ a tree and considering it \"live\".) </p>"
+name: Clint Talbert
+slug: peptest-introduction

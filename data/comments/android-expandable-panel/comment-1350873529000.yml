@@ -1,0 +1,9 @@
+date: '2012-10-21T21:38:49Z'
+email: mikew5673@gmail.com
+msg: <p>OK, I found the solution:</p><p> // This changes the height of the content
+  such that it<br> // starts off collapsed<br> android.view.ViewGroup.LayoutParams
+  lp = <br>                                    mContent.getLayoutParams();<br>lp.height
+  = mCollapsedHeight; // this is the problem<br>mContent.setLayoutParams(lp);</p><p>the
+  height will be set to 0 in any case..<br></p>
+name: Mike
+slug: android-expandable-panel
