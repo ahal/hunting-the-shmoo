@@ -1,0 +1,11 @@
+date: '2015-03-30T08:38:35Z'
+email: james@hoppipolla.co.uk
+msg: <p>This sounds neat.</p><p>However describing it as git-like seems a little misleading;
+  git's branches are literally just pointers to commits. The main difference between
+  git and mercurial here is that the git command line seems to be well-designed to
+  work with branches, but the hg one is not to work with bookmarks.</p><p>I also have
+  some philosophical issues about the use of phases here (and in general); it seems
+  to me that they are more confusing than helpful ("I pushed to bitbucket and now
+  my branch is empty!"). On the other hand I understand that's The Mercurial Way.</p>
+name: jgraham
+slug: making-mercurial-bookmarks-more-git-like

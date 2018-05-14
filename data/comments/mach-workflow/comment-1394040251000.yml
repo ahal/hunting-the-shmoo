@@ -1,0 +1,7 @@
+date: '2014-03-05T12:24:11Z'
+email: ato@sny.no
+msg: <p>That's an interesting idea.  Potentially one could have it detect an environmental
+  variable or something and have it automatically instate the right mozconfig for
+  you.</p>
+name: Andreas Tolfsen
+slug: mach-workflow

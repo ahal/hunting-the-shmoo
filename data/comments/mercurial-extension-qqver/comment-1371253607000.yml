@@ -1,0 +1,8 @@
+date: '2013-06-14T18:46:47Z'
+email: sphink@gmail.com
+msg: <p>Why monkeypatch when you can patch? :-) mqext already adds the main repo's
+  qparent and qtip to the commit messages automatically, so you can exactly recover
+  any past state more easily. Adding on the current queue would totally fit in, and
+  I would have no objection to it happening all the time.</p>
+name: SteveFink
+slug: mercurial-extension-qqver

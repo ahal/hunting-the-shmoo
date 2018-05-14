@@ -1,0 +1,10 @@
+date: '2012-07-25T03:02:21Z'
+email: m.afanaci@gmail.com
+msg: '<p>Man, I would like to thank you for this awesome tutorial but even I have
+  done everything the same way that you have done ir your tutorial I am not able to
+  use the attribute references in my app, and it is the same as showed in the tutorial,
+  I am facing the following error:</p><p>Caused by: java.lang.IllegalArgumentException:
+  The handle attribute is required and must refer to a valid child.</p><p>Everything
+  is the same as what you have showed.</p>'
+name: M Afanaci
+slug: android-expandable-panel

@@ -1,0 +1,7 @@
+date: '2014-11-10T14:45:04Z'
+email: halbersa@gmail.com
+msg: <p>Good point. In the case of user repos, I don't think most people have <br>permission
+  to ssh in and make this change (someone correct me if I'm wrong). But it's a necessary
+  step no <br>matter where it lives. Updated!</p>
+name: ahal
+slug: new-mercurial-workflow

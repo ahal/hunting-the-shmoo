@@ -1,0 +1,8 @@
+date: '2017-03-07T10:43:19Z'
+email: henrik.skupin@gmail.com
+msg: <p>Thank you for this great post! I will definitely switch using absorb now!</p><p>When<br>
+  I tried to compile it on MacOS Sierra I still got the `'lz4.h' file not<br> found`
+  failure listed even with using `--component` as layed out above.<br> So I had to
+  run `brew install lz4` to get this fixed.</p>
+name: Henrik Skupin
+slug: mercurial-absorb

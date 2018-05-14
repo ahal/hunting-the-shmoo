@@ -1,0 +1,23 @@
+date: '2014-03-21T16:34:57Z'
+email: dmitchell@mozilla.com
+msg: '<p>Most tech businesses deal with IFFY problems -- this certainly isn''t unique
+  to Mozilla or to the kinds of problems you find yourself working on.  In fact, IFFY
+  is exactly what killed the waterfall design process: if you don''t have solid requirements
+  up-front, then a method which needs them is doomed to fail.</p><p>So we need to
+  be able to react quickly to changing circumstances - we need agility.  Dave Thomas
+  describes what this really means, stripping away all of the marketing and branding,
+  in <a href="http://pragdave.me/blog/2014/03/04/time-to-kill-agile/" rel="nofollow
+  noopener" title="http://pragdave.me/blog/2014/03/04/time-to-kill-agile/">http://pragdave.me/blog/201...</a>.</p><p>And
+  people who live and breathe "agile" talk all the time about principles like DRY,
+  open/closed, single responsibility, law of demeter, and so on.  And they talk about
+  paying down tech debt, focusing attention on user stories, and balancing those two.</p><p>So
+  the issue here isn''t that we''ve been too DRY with IFFY projects -- it''s that
+  our overall approach lacks agility.  In fact, the organization is all over the place
+  in terms of approach -- some groups are trying the agile approach, although many
+  understand it to mean "fail fast" or "play with all the new toys" or "just make
+  stuff work".  Some groups are too busy firefighting to have an approach.  Some groups
+  are adding more waterfall-style process in an effort to handle continued growth
+  and shrinking budgets.  The result is some really awkward conversations, failed
+  projects, and painfully rotten codebases.</p>'
+name: Dustin J. Mitchell
+slug: part-1-sharing-code-not-always-good-thing

@@ -1,0 +1,7 @@
+date: '2014-05-24T21:43:12Z'
+email: wrlach@gmail.com
+msg: <p>I don't think your alternative implementation really makes sense. What would
+  the fennec object represent? All we're doing is providing an interface to the Android
+  "launch" mechanism, which properly belongs in the devicemanager class.</p>
+name: William Lachance
+slug: when-would-you-use-python-mixin

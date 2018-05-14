@@ -1,0 +1,7 @@
+date: '2017-06-12T13:15:01Z'
+email: halbersa@gmail.com
+msg: <p>Thanks yeah, looks like absorb is tracking the mercurial development branch.
+  So you can either rollback fb-experimental to the commit you mentioned, or install
+  the latest mercurial from source.</p>
+name: ahal
+slug: mercurial-absorb

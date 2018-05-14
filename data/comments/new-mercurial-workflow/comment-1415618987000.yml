@@ -1,0 +1,8 @@
+date: '2014-11-10T06:29:47Z'
+email: mathias.demare@gmail.com
+msg: <p>"This is enough of a pain that I'd recommend avoiding user repositories for
+  this purpose unless you<br>can figure out how to make them non-publishing."</p><p>I
+  would propose you mention how to make them non-publishing, it only requires:</p><p>[phases]<br>publish
+  = False</p><p>Nice post, by the way!</p>
+name: Mathiasdm
+slug: new-mercurial-workflow

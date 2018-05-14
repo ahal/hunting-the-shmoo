@@ -1,0 +1,9 @@
+date: '2012-09-26T14:24:04Z'
+email: halbersa@gmail.com
+msg: <p>Make sure you change the package name at the top to be your package. Also
+  see the second comment to my post on stackoverflow:</p><p>"Just in case anyone else
+  was having issues getting this to work, you need to add xmlns:custom="<a href="http://schemas.android.com/apk/res/your.package.namespace"
+  rel="nofollow noopener" title="http://schemas.android.com/apk/res/your.package.namespace">http://schemas.android.com/...</a>"
+  in the root element of the xml layout file in order to use the custom attributes"</p>
+name: ahal
+slug: android-expandable-panel

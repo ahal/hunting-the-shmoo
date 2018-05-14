@@ -1,0 +1,6 @@
+date: '2016-08-04T16:37:36Z'
+email: b56girard@gmail.com
+msg: <p>Looks amazing! If we can get a way to dispatch to Digital Ocean instead of
+  EC2 we can use RR to record/replay :). Would be neat if it's not too much work.</p>
+name: Benoit Girard
+slug: taskcluster-interactive-loaner

@@ -1,0 +1,7 @@
+date: '2012-09-12T18:10:11Z'
+email: joel.maher@gmail.com
+msg: <p>The only thing I would add is while we have 720 pixels on the panda board
+  for the height, many of those are not available to the application (we have the
+  android status bar, our own url bar, etc...) so we have 617 pixels of height.</p>
+name: Joel Maher
+slug: state-reftest-b2g

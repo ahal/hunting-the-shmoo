@@ -1,0 +1,9 @@
+date: '2012-07-25T22:28:14Z'
+email: halbersa@gmail.com
+msg: <p>If you look in the above code, you'll see that that is raised when handleId
+  is 0, i.e when you don't have an attribute called "namespace:handle" that points
+  to a valid child element.</p><p>Can you pastebin (<a href="http://pastebin.org"
+  rel="nofollow noopener" title="pastebin.org">pastebin.org</a>) the relevant section
+  of your xml layout file as well as your attrs.xml?</p>
+name: ahal
+slug: android-expandable-panel

@@ -1,0 +1,19 @@
+date: '2015-05-12T08:54:01Z'
+email: dejan.lekic@gmail.com
+msg: <p>I only recently started programming in Python (I am mostly C/C++/D/Java/BASH
+  programmer)</p><p>It is hard to talk about mixins in a language which supports multiple-inheritance.
+  I use mixins in D a lot. D (<a href="http://dlang.org" rel="nofollow noopener" title="http://dlang.org">http://dlang.org</a>)
+  has two types of mixins. One is exactly the same as in Python, and in D parlance
+  they are called "template mixins" (<a href="http://dlang.org/template-mixin.html)"
+  rel="nofollow noopener" title="http://dlang.org/template-mixin.html)">http://dlang.org/template-m...</a>,
+  and the other type are extremely powerful string mixins (<a href="http://dlang.org/mixin.html)"
+  rel="nofollow noopener" title="http://dlang.org/mixin.html)">http://dlang.org/mixin.html)</a>
+  which allows programmer to generate valid D code at compile-time.</p><p>Sure Python
+  mixins are not 100% the same thing as D template mixins, but they are very very
+  similar. And I find them extremely useful in cases when you want to add specific
+  behaviour to any class.</p><p>Say for an example you want to be able to easily add
+  a method called toJSON() which returns a JSON representation of the object's state.
+  You can write a mixin which will use reflection to get members, and nicely generate
+  JSON for you. You can then use this mixin in every class.</p>
+name: Dejan Lekic
+slug: when-would-you-use-python-mixin
