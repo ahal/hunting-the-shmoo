@@ -1,7 +1,7 @@
 ---
 title: I tried to be different and all I got was this crappy website!
 date: 2011-04-04
-tags: [django]
+tags: [django, website]
 slug: i-tried-to-be-different
 
 ---
