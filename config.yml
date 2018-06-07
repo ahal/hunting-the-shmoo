@@ -32,6 +32,10 @@ menu:
       name: Casts
       url: /casts/
 
+taxonomies:
+  series: series
+  tag: tags
+
 # Theme variables
 params:
   author: "Andrew Halberstadt"

@@ -28,7 +28,7 @@ pre {
     background-image: url('/img/background-100-50-5.png');
 }
 
-.blog-nav a:first-child {
+.blog-header {
     display: none;
 }
 
@@ -67,6 +67,7 @@ pre {
 
 .sidebar-module li > a {
     display: block;
+    font-size: 0.9em;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
