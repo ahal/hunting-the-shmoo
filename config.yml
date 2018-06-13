@@ -39,7 +39,7 @@ taxonomies:
 # Theme variables
 params:
   author: "Andrew Halberstadt"
-  description: "Ramblings related to my work at Mozilla and other projects."
+  description: "Screencasts and blog posts on workflow, productivity, tools, Mozilla and whatever else tickles my fancy."
   date_format: "Jan 02, 2006"
   mainSections:
     - blog

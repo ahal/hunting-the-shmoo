@@ -28,10 +28,6 @@ pre {
     background-image: url('/img/background-100-50-5.png');
 }
 
-.blog-header {
-    display: none;
-}
-
 .blog-post-title a {
     font-size: 0.8em;
 }
