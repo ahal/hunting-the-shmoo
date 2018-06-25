@@ -1,0 +1,27 @@
+{{ define "header" }}
+{{ if eq .Page.Kind "home" }}
+    <header class="blog-header">
+      <div class="container blockquote">
+        {{ if .Site.Params.description }}<p class="lead blog-description"><i>{{ .Site.Params.description | markdownify }}</i></p>{{ end }}
+      </div>
+    </header>
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+
+<h1>{{ .Name }}</h1>
+<p>{{ .Params.desc }}</p>
+<ol class="list-episodes" style="list-unstyled">
+{{ range .Paginator.Pages }}
+  <li>{{ .Render "condensed" }}</li>
+{{ end }}
+</ol>
+
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+{{ partial "pagination.html" . }}
+{{ end }}
+
+{{ end }}
+
+{{- /* vim: set ts=2 sw=2 et: */}}

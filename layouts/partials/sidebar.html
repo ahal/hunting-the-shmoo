@@ -6,6 +6,17 @@
   </section>
   {{ end }}
 
+  {{ if (index .Site.Params.sidebar "series" | default false) }}
+  <section class="sidebar-module">
+    <h4>Series</h4>
+    <ol class="list-unstyled">
+    {{ range $name, $taxonomy := .Site.Taxonomies.series }}
+      <li><a href="{{ "/series/" | relLangURL }}{{ $name | urlize }}">{{ replace $name "-" " " | title }}</a></li>
+    {{ end }}
+    </ol>
+  </section>
+  {{ end }}
+
   {{ if .Site.Params.sidebar }}
       {{ partialCached "recent.html" .}}
   {{ end }}

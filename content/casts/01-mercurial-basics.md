@@ -10,4 +10,4 @@ slug: 01-mercurial-basics
 draft: true
 ---
 
-Welcome to Making Sense of Mercurial!
+In this episode we explore the DAG, some terminology and Mercurial basics.

@@ -38,6 +38,17 @@ pre {
     border-top: none;
 }
 
+.list-episodes {
+    counter-reset: item;
+    list-style: none;
+    padding: 0;
+}
+
+.list-episodes li:before {
+    content: 'Episode ' counter(item, decimal) '. ';
+    counter-increment: item;
+}
+
 .nav-link {
     color: #000;
     margin-top: 15px;
