@@ -62,7 +62,7 @@ In order to compile linelog, you'll need some dependencies:
 
 ```bash
 $ sudo pip install cython
-$ sudo dnf install lz4-devel python-devel openssl-devel
+$ sudo dnf install python-devel
 ```
 
 Make sure the `cython` dependency gets installed to the same python your mercurial install uses.
@@ -71,7 +71,7 @@ Next, compile the `hg-experimental` repo by running:
 
 ```bash
 $ cd path/to/hg-experimental
-$ sudo python setup.py install
+$ sudo python setup.py install --component absorb
 ```
 
 Again, be sure to run the install with the same python mercurial is installed with. Finally, add the
@@ -79,7 +79,7 @@ following to your ~/.hgrc:
 
 ```ini
 [extensions]
-absorb = path/to/hg-experimental/hgext3rd/absorb.py
+absorb =
 ```
 
 The extension should now be installed! In the future, you can update the extension and python
@@ -89,7 +89,7 @@ modules with:
 $ cd path/to/hg-experimental
 $ hg pull --rebase
 $ make clean
-$ sudo python setup.py install
+$ sudo python setup.py install --component absorb
 ```
 
 Let me know if there were other steps needed to get this working on your platform.
