@@ -39,7 +39,7 @@ taxonomies:
 # Theme variables
 params:
   author: "Andrew Halberstadt"
-  description: "Screencasts and blog posts on workflow, productivity, tools and Mozilla"
+  description: "Exploring workflow, productivity, tools and Mozilla"
   date_format: "Jan 02, 2006"
   mainSections:
     - blog
