@@ -9,7 +9,7 @@ comments:
     filename: "comment-{@timestamp}"
     format: "yaml"
 
-    allowedFields: ["name", "email", "url", "msg"]
+    allowedFields: ["name", "email", "msg"]
     requiredFields: ["name", "msg"]
     generatedFields:
         date:
