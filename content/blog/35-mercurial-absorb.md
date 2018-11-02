@@ -46,6 +46,9 @@ It's magic!
 
 ## Installing Absorb
 
+**Note**: As of Mercurial 4.8, absorb is included as a core extension! Simply add `absorb=` to the
+extensions section of your hgrc.
+
 There's one big problem. The docs in the [hg-experimental][3] repo (where absorb lives) are
 practically non-existent, and installation is a bit of a pain. So here are the steps I took to get
 it working on Fedora. They won't hand hold you for other platforms, but they should at least point
