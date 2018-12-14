@@ -44,7 +44,7 @@ file first:
 
 ```bash
 $ ./mach taskgraph full -J > full.taskgraph
-$ cat full.taskgraph | tg "win64 mochitest | reftest -1$"
+$ cat full.taskgraph | tf "win64 mochitest | reftest -1$"
 ```
 
 The above will filter down all chunk 1 mochitest and reftest tasks on win64. The query syntax is
