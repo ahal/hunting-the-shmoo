@@ -3,7 +3,6 @@ title: "Python 3 at Mozilla"
 date: 2019-04-30T15:25:50-04:00
 tags: [mozilla, python, jetty]
 slug: python-3-at-mozilla
-draft: true
 ---
 
 Mozilla uses a lot of Python. Most of our build system, CI configuration, test harnesses, command
