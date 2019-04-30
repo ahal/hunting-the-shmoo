@@ -45,7 +45,7 @@ why:
    applications beyond 2020 is asking for trouble.*
 
 3. Delaying means more code to migrate. When you want to interface with a large Python 2 code base,
-   you need to write code that is compatible with Python 2. While its possible to write Python code
+   you need to write code that is compatible with Python 2. While it's possible to write Python code
    that is compatible with both 2 and 3, the incentives to do so are not always evident. Or the
    know-how is missing. As of today, most of the Python code we write at Mozilla is only Python 2
    compatible. The longer we delay the migration, the more gargantuan the task becomes.
@@ -220,7 +220,7 @@ the two necessary virtualenvs. One for Python 2 and one for Python 3. Some modul
 might show up in both manifests. But there's something else to consider here. We have a similar but
 tangential problem that we need to solve in mozilla-central: dependency locking.
 
-Depdendency locking is making sure that all consumers of a tool use the exact same versions as
+Dependency locking is making sure that all consumers of a tool use the exact same versions as
 everyone else. This keeps things reproducible and explicit, prevents mitm attacks by verifying
 hashes and is widely considered best practice in any package ecosystem. The reason it's worth
 considering is that the tools that handle dependency locking, also tend to handle virtualenv
@@ -244,7 +244,7 @@ places:
 
 At the time Dave Hunt and I were implementing these things, it was the only game in town. We made it
 all work, but the road was a bit bumpier than we would have liked. We ended up implementing things
-that were "good enough", but not polished to the level we would have liked. There are a few reason
+that were "good enough", but not polished to the level we would have liked. There are a few reasons
 I'm not personally sold on Pipenv for use in a large monorepo like ours:
 
 1. The maintainer is less than accomodating to outside change, we had several seemingly reasonable
