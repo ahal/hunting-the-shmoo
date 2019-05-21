@@ -1,6 +1,6 @@
 ---
 title: "The Cost of Fragmented Communication"
-date: 2019-05-06T14:41:33-04:00
+date: 2019-05-21T15:04:33-04:00
 tags: [mozilla]
 slug: fragmented-communication
 ---
@@ -142,8 +142,8 @@ conversations. This means that the problem will still exist to some degree (some
 people will always prefer it to the alternative). Ideally the IRC replacement will be able to handle
 both public and private modes of communication. And ideally once the switch happens, we can start a
 conversation about turning off Slack. I've heard one of the barriers to turning off Slack is that it
-is the preferred method of communication amongst executives. I sincerely hope that after we switch
-away from IRC that this is not the only barrier stopping this from happening.
+is the preferred method of communication amongst some higher ups. I sincerely hope that after we
+switch away from IRC that this is not the only barrier stopping this from happening.
 
 Mozilla's productivity and inclusion are both on the line.
 
