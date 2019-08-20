@@ -24,7 +24,7 @@ contained within. Enter [bookbinder][0].
 First, you can install bookbinder by cloning:
 
 ```bash
-$ hg clone https://bitbucket.org/halbersa/bookbinder
+$ hg clone https://hg.sr.ht/~ahal/bookbinder
 ```
 
 Then add the following to your hgrc:
@@ -149,4 +149,4 @@ In closing, bookbinder has helped me make a lot more sense out of my bookmark ba
 problem I think should be handled in mercurial core, maybe one day I'll attempt to submit a patch
 upstream. But until then, I hope it can be useful to others as well.
 
-[0]: https://bitbucket.org/halbersa/bookbinder
+[0]: https://hg.sr.ht/~ahal/bookbinder

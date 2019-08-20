@@ -248,4 +248,4 @@ using this workflow? If so, have you solved them?
 [5]: http://42.netv6.net/evolve-main/
 [6]: http://www.gerg.ca/evolve/user-guide.html
 [7]: http://selenic.com/hg/help/revsets
-[8]: https://bitbucket.org/halbersa/bookbinder
+[8]: https://hg.sr.ht/~ahal/bookbinder
