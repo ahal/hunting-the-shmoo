@@ -2,7 +2,7 @@
 title: Android ExpandablePanel
 date: 2011-06-24
 tags: [android]
-slug: android-expandablepanel
+slug: android-expandable-panel
 
 ---
 
