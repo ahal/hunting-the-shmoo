@@ -2,4 +2,4 @@ _id: aa02dc30-7f31-11e9-9f76-759bf7394a3d
 name: ahal
 email: ''
 msg: "@Olga\r\n\r\nYou're welcome! Both Python 2 and 3 are currently required to build Firefox. I believe on Windows we package them both with our `mozilla-build` bundle. There are instructions for obtaining it on the page you linked."
-date: '2019-05-25T21:11:29.836Z'
+date: '2019-05-25T21:11:29Z'
