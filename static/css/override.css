@@ -7,7 +7,7 @@ a:hover {
 }
 
 body {
-    background-color: #F6F2E6;
+    background-color: #F7F4ED;
     background-image: url('/img/background-100-50-5.png');
 }
 
@@ -43,7 +43,7 @@ h2, h3 {
 }
 
 .blog-footer {
-    background-color: #F6F2E6;
+    background-color: #F7F4ED;
     background-image: url('/img/background-100-50-5.png');
     border-top: none;
 }
@@ -57,7 +57,7 @@ h2, h3 {
 }
 
 .nav-link.active {
-    background-color: #F6F2E6;
+    background-color: #F7F4ED;
     background-image: url('/img/background-100-50-5.png');
     border-radius: 10px 10px 0px 0px;
     color: #000;
@@ -83,65 +83,7 @@ h2, h3 {
     font-size: 0.8em;
 }
 
-.post-comments {
-    margin-top: 60px;
-}
-
-.post-comment {
-    border-bottom: 1px dotted gray;
-    margin-top: 20px;
-    padding: 20px;
-}
-
-.post-comment-header {
-    margin-bottom: 20px;
-}
-
-.post-comment-avatar {
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 50%;
-    max-width: 50px;
-}
-
-.post-comment-info {
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 0;
-    vertical-align: middle;
-}
-
-.post-comment-field {
-    display: block;
-    font: inherit;
-    padding: 10px;
-    margin-top: 20px;
-    outline-color: #F76C5E;
-    width: 100%;
-}
-
-.btn {
-    border: 2px solid #F64AB2;
-    background-color: #F64AB2;
-    color: white;
-    display: inline-block;
-    font: inherit;
-    padding: 20px;
-    min-width: 100px;
-    -webkit-appearance: none;
-}
-
-.btn:hover {
-    border: 2px solid #F64AB2 !important;
-    background-color: white;
-    color: #F64AB2;
-    text-decoration: none;
-}
-
-#comment-submitted{
-    display: none;
-}
-
-#comment-submitted:target {
-    display: block;
+.sharing-icons {
+    display: flex;
+    justify-content: right;
 }

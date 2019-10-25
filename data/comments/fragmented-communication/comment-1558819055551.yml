@@ -1,5 +1,13 @@
 _id: 83fed880-7f32-11e9-9f76-759bf7394a3d
-name: ahal
-email: ''
-msg: "@Philip\r\n\r\nHi, and thanks! I'm not aware of any official stance or documentation with regards to public record keeping. It's just how it's always been and many of us old-timers just take it for granted (though as you might tell from this post, in recent years it's been less like this).\r\n\r\nThe logbot site I linked is a side project from a Mozilla employee, and I believe the older logs have been saved and passed on from Mozillians who ran logging scripts back in the day. I share your belief that having publicly indexed logs is benecifial. Hopefully we'll continue to have this ability with whatever replaces IRC."
 date: '2019-05-25T21:17:35Z'
+email: ''
+msg: "@Philip\r\n\r\nHi, and thanks! I'm not aware of any official stance or documentation\
+  \ with regards to public record keeping. It's just how it's always been and many\
+  \ of us old-timers just take it for granted (though as you might tell from this\
+  \ post, in recent years it's been less like this).\r\n\r\nThe logbot site I linked\
+  \ is a side project from a Mozilla employee, and I believe the older logs have been\
+  \ saved and passed on from Mozillians who ran logging scripts back in the day. I\
+  \ share your belief that having publicly indexed logs is benecifial. Hopefully we'll\
+  \ continue to have this ability with whatever replaces IRC."
+name: ahal
+slug: fragmented-communication

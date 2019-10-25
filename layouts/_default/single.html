@@ -74,7 +74,7 @@
   </ul>
   {{ end }}
 
-  {{ if or (ne ($.Param "sharingicons") false) (.Site.DisqusShortname) (.Site.Params.staticman) }}
+  {{ if or (ne ($.Param "sharingicons") false) }}
   <hr>
   <footer>
 
@@ -82,15 +82,9 @@
   {{ partial "sharing-icons.html" . }}
   {{ end }}
 
-  {{ if and (.Site.DisqusShortname) (ne .Params.comments false) }}
-  {{ template "_internal/disqus.html" . }}
-  {{ end }}
-
-  {{ if and (.Site.Params.staticman) (ne .Params.comments false) }}
+  {{ if ne .Params.comments false }}
     <section class="post-comments">
-      {{ partial "staticman/show-comments.html" . }}
-      <br>
-      {{ partial "staticman/form-comments.html" . }}
+      {{ partial "comments.html" . }}
     </section>
   {{ end }}
   </footer>

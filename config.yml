@@ -50,11 +50,6 @@ params:
   social:
     mastodon: "ahal@mastodon.club"
     twitter: "halbersa"
-  staticman:
-    baseurl: "https://api.staticman.net/v2/entry"
-    user: "ahal"
-    repo: "hunting-the-shmoo"
-    branch: "master"
   # Whether to display summaries on the list page
   truncate: true
 
