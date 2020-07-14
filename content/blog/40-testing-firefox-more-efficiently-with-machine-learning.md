@@ -9,6 +9,8 @@ Blog](https://hacks.mozilla.org/2020/07/testing-firefox-more-efficiently-with-ma
 
 A browser is an incredibly complex piece of software. With such enormous complexity, the only way to maintain a rapid pace of development is through an extensive [CI](https://en.wikipedia.org/wiki/Continuous_integration) system that can give developers confidence that their changes won't introduce bugs. Given the scale of our CI, we’re always looking for ways to reduce load while maintaining a high standard of product quality. We wondered if we could use machine learning to reach a higher degree of efficiency.
 
+<!--more-->
+
 ### Continuous integration at scale
 At Mozilla we have around 50,000 unique test files. Each contain many test functions. These tests need to run on all our supported platforms (Windows, Mac, Linux, Android) against a variety of build configurations ([PGO](https://en.wikipedia.org/wiki/Profile-guided_optimization), debug, [ASan](https://github.com/google/sanitizers/wiki/AddressSanitizer), etc.), with a range of runtime parameters ([site isolation](https://wiki.mozilla.org/Project_Fission), [WebRender](https://wiki.mozilla.org/Platform/GFX/Quantum_Render), multi-process, etc.).
 
