@@ -1,6 +1,7 @@
 ---
 title: "Testing Firefox More Efficiently With Machine Learning"
 date: 2020-07-10T12:08:34-04:00
+tags: [mozilla, taskcluster, ci, machine-learning]
 ---
 
 *This post was co-authored with [Marco Castelluccio](https://marco-c.github.io/), and was originally
