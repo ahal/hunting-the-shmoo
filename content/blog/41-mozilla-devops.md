@@ -1,9 +1,8 @@
 ---
 title: "DevOps at Mozilla"
-date: 2021-03-01T11:18:26-05:00
+date: 2021-03-01T5:00:00-05:00
 tags: [mozilla, devops]
 slug: mozilla-devops
-draft: true
 ---
 
 I first joined [Mozilla as an intern](https://ahal.ca/blog/2011/why-mozilla-is-awesome/) in 2010 for

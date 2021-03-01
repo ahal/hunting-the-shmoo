@@ -1,9 +1,8 @@
 ---
 title: "A Better Terminal for Mozilla Build"
-date: 2021-03-01T09:36:42-05:00
-tags: [mozilla, productivity]
+date: 2021-03-02T09:00:00-05:00
+tags: [mozilla, productivity, tools-tip-tuesday]
 slug: mozilla-build-windows-terminal
-draft: true
 ---
 
 If you're working with mozilla-central on Windows and followed the [official
