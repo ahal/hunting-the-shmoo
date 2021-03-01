@@ -6,5 +6,5 @@ slug: {{ .Name }}
 draft: true
 ---
 
-<!-- more -->
+<!--more-->
 
