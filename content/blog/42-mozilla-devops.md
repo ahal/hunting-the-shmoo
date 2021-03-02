@@ -1,6 +1,6 @@
 ---
 title: "DevOps at Mozilla"
-date: 2021-03-01T5:00:00-05:00
+date: 2021-03-02T11:00:00-05:00
 tags: [mozilla, devops]
 slug: mozilla-devops
 ---
