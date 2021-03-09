@@ -1,9 +1,8 @@
 ---
 title: "Hide Your Lint Errors"
-date: 2021-03-09T00:00:07-05:00
+date: 2021-03-09T09:15:07-05:00
 tags: [mozilla, productivity, tools-tip-tuesday]
 slug: hide-your-lint-errors
-draft: true
 ---
 
 Have you ever submitted a patch to Phabricator only to have reviewbot reveal dozens of lint errors
@@ -18,7 +17,9 @@ There are many places where one might want to run linters. In an editor for earl
 feedback. At commit or submit time in case you forgot to run it in an editor. At review time in case
 you forgot to run it before submitting. Finally in CI in case all of the above fails. The key
 area to focus on here is at submit time. While running linters in your editor or at commit time can
-be beneficial, it's at submission that you'll want to have your backstop.
+be beneficial, it's at submission that you'll want to have your backstop. That way you will be only
+person to ever know how many lint mistakes you let slip!
+
 
 [Mozlint](https://firefox-source-docs.mozilla.org/code-quality/lint/mozlint.html) supports linting
 files that have been touched in version control. Both outgoing changes that don't exist upstream
