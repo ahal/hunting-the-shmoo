@@ -1,9 +1,8 @@
 ---
 title: "Managing Multiple Mozconfigs"
-date: 2021-03-16T09:22:48-04:00
+date: 2021-03-16T09:48:48-04:00
 tags: [mozilla, mozconfigwrapper, tools-tip-tuesday]
 slug: managing-multiple-mozconfigs
-draft: true
 ---
 
 Mozilla developers often need to juggle multiple build configurations in their day to day work.
