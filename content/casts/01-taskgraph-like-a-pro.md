@@ -10,7 +10,7 @@ Have you ever needed to inspect the taskgraph locally? Did you have a bad time? 
 the taskgraph like a PRO. For the impatient skip to the installation instructions below.
 
 
-<iframe src="https://player.vimeo.com/video/306431059" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://vimeo.com/306431059" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br>
 
 <!--more-->

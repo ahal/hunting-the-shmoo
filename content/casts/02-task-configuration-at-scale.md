@@ -8,7 +8,7 @@ slug: task-configuration-at-scale
 A talk I did for the Automationeer's Assemble series on how Mozilla handles complexity in their CI
 configuration.
 
-<iframe src="https://player.vimeo.com/video/322897542" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://vimeo.com/322897542" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br>
 
 <!--more-->
