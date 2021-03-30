@@ -103,7 +103,7 @@ $ ./mach try again
 
 ### Analyzing your Push with Pernosco
 
-If you make use of the [pernosco](https://pernos.co/) service you can easily tell it to scan your
+If you make use of the [Pernosco](https://pernos.co/) service you can easily tell it to scan your
 try push by passing in the `--pernosco` flag. Once the task and analysis have finished, Pernosco
 will e-mail you a link to the trace. Make sure you select a [supported
 platform](https://pernos.co/faq/) and are using an @mozilla.com e-mail.
@@ -118,14 +118,16 @@ download a parameters file from CI. For instance, to get the set of tasks that r
 ```bash
 # download parameters.yml from latest beta push
 $ ./mach try fuzzy --parameters project=mozilla-beta
-
-# pass in a custom parameters.yml
-$ ./mach try fuzzy --parameters parameters.yml
 ```
 
 Note that if you are running this from a mozilla-central base, you'll likely see failures due to
 differences in the code base and task configuration. So be sure to update to beta first! You can
 also craft your own `parameters.yml` file and pass it in directly:
+
+```bash
+# pass in a custom parameters.yml
+$ ./mach try fuzzy --parameters parameters.yml
+```
 
 ### Generating the Task Graph in the Background
 
