@@ -6,7 +6,7 @@ slug: advanced-mach-try
 ---
 
 Following up [last week's post](https://ahal.ca/blog/2021/understanding-mach-try/) on some `mach
-try` fundamentals, I figured it would be worth a posting some actual concrete tips and tricks. So
+try` fundamentals, I figured it would be worth posting some actual concrete tips and tricks. So
 without further ado, here are some things you can do with `./mach try` you may not have known about
 in rapid fire format.
 
