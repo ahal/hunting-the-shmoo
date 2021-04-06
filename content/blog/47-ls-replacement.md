@@ -1,9 +1,8 @@
 ---
 title: "A Better Replacement for ls"
-date: 2021-04-06T10:11:21-04:00
+date: 2021-04-06T11:05:21-04:00
 tags: [mozilla, tools-tip-tuesday]
 slug: ls-replacement
-draft: true
 ---
 
 > If it ain't broke don't fix it.
