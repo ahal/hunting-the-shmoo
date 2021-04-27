@@ -1,9 +1,8 @@
 ---
 title: "Phabricator Etiquette Part 2: The Author"
-date: 2021-04-19T11:06:41-04:00
+date: 2021-04-27T09:33:31-04:00
 tags: [phabricator, mozilla, tools-tip-tuesday]
 slug: phabricator-etiquette-part-2-the-author
-draft: true
 ---
 
 [Last time](https://ahal.ca/blog/2021/phabricator-etiquette-part-1-the-reviewer/) we looked at some
