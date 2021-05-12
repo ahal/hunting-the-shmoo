@@ -1,7 +1,7 @@
 ---
 title: "A Better Terminal for Mozilla Build"
 date: 2021-03-02T09:00:00-05:00
-tags: [mozilla, productivity, tools-tip-tuesday]
+tags: [mozilla, productivity, tips-and-tricks]
 slug: mozilla-build-windows-terminal
 ---
 

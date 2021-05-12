@@ -1,7 +1,7 @@
 ---
 title: "Hide Your Lint Errors"
 date: 2021-03-09T09:15:07-05:00
-tags: [mozilla, productivity, tools-tip-tuesday]
+tags: [mozilla, productivity, tips-and-tricks]
 slug: hide-your-lint-errors
 ---
 

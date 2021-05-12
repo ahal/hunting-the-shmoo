@@ -1,7 +1,7 @@
 ---
 title: "Managing Multiple Mozconfigs"
 date: 2021-03-16T09:48:48-04:00
-tags: [mozilla, mozconfigwrapper, tools-tip-tuesday]
+tags: [mozilla, mozconfigwrapper, tips-and-tricks]
 slug: managing-multiple-mozconfigs
 ---
 
@@ -20,7 +20,7 @@ problems.
 <!--more-->
 
 This tip is almost as old as the hills, but part of the motivation behind this [tips
-series](https://ahal.ca/tags/tools-tip-tuesday/) is to not take for granted that developers are
+series](https://ahal.ca/tags/tips-and-tricks/) is to not take for granted that developers are
 aware of all the tools available to them. Maybe you are one of the many new folks who joined Mozilla
 since I [last blogged](https://ahal.ca/blog/2011/mozconfigwrapper-introduction/) about this, or
 maybe you are just one of today's [lucky 10,000](https://xkcd.com/1053/) (or more like lucky

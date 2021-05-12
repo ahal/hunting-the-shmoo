@@ -1,7 +1,7 @@
 ---
 title: "Phabricator Etiquette Part 2: The Author"
 date: 2021-04-27T09:33:31-04:00
-tags: [phabricator, mozilla, tools-tip-tuesday]
+tags: [phabricator, mozilla, tips-and-tricks]
 slug: phabricator-etiquette-part-2-the-author
 ---
 

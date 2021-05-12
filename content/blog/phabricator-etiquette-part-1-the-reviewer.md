@@ -1,7 +1,7 @@
 ---
 title: "Phabricator Etiquette Part 1: The Reviewer"
 date: 2021-04-13T15:42:41-04:00
-tags: [phabricator, mozilla, tools-tip-tuesday]
+tags: [phabricator, mozilla, tips-and-tricks]
 slug: phabricator-etiquette-part-1-the-reviewer
 ---
 

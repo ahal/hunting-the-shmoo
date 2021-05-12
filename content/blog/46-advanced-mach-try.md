@@ -1,7 +1,7 @@
 ---
 title: "Advanced Mach Try"
 date: 2021-03-30T9:30:00-04:00
-tags: [mozilla, tools-tip-tuesday, try]
+tags: [mozilla, tips-and-tricks, try]
 slug: advanced-mach-try
 ---
 

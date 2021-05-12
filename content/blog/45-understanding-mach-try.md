@@ -1,7 +1,7 @@
 ---
 title: "Understanding Mach Try"
 date: 2021-03-23T10:51:01-04:00
-tags: [mozilla, tools-tip-tuesday, try]
+tags: [mozilla, tips-and-tricks, try]
 slug: understanding-mach-try
 ---
 
