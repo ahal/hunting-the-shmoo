@@ -9,9 +9,8 @@ draft: false
 Have you ever needed to inspect the taskgraph locally? Did you have a bad time? Learn how to inspect
 the taskgraph like a PRO. For the impatient skip to the installation instructions below.
 
+{{< vimeo 306431059 >}}
 
-<iframe src="https://vimeo.com/306431059" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<br>
 
 <!--more-->
 
