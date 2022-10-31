@@ -1,9 +1,8 @@
 ---
 title: "How to Work on Taskcluster Github"
-date: 2022-08-10T11:58:24-04:00
-tags: [taskcluster, github]
-slug: work-on-taskcluster-github
-draft: true
+date: 2022-10-31T16:45:00-04:00
+tags: [taskcluster, github, mozilla]
+slug: taskcluster-github-dev
 ---
 
 [Taskcluster Github][0] is the [Taskcluster][1] service responsible for kick starting tasks on
