@@ -78,7 +78,7 @@ compose][7] plugin are installed and working properly.
 ## Edit `hosts` File
 
 All Taskcluster web services are served via nginx through a single `taskcluster` proxy reachable
-through http://taskcluster on the localhost. To solve some authentication issues, it's necessary to
+through [http://taskcluster](http://taskcluster) on the localhost. To solve some authentication issues, it's necessary to
 add the following to your hosts file:
 
 ```bash
@@ -186,7 +186,7 @@ Before we configure the Github service, let's make sure our app is working as ex
 ## Configure the App in your Taskcluster instance
 
 For the last piece, we need to configure your local Taskcluster Github service to accept webhook
-events from your application. This [also documented in the Taskcluster dev-docs][15], but to
+events from your application. This is [also documented in the Taskcluster dev-docs][15], but to
 summarize:
 
 1. Create a new [override file][16] called `docker-compose.override.yml` at the root of the
@@ -274,7 +274,7 @@ tasks:
 
 ## Create the Missing Scopes
 
-1. First navigate to the web UI of your instance at http://taskcluster
+1. First navigate to the web UI of your instance at [http://taskcluster](http://taskcluster)
 2. Click Sign In at the top right
 3. Use `static/taskcluster/root` as the Client ID, the Access Token can be found in the [docker
    compose env][18] for the `auth-web` service. Search for `static/taskcluster/root` then copy the
@@ -308,11 +308,23 @@ Now you'll no longer need to restart the service to pick up changes! Try it out 
 adding some print statements and re-generating an event in Github. You should see your print
 statements in the console output!
 
+## Replaying Webhook Events
+
+Manually creating pull requests or pushes to trigger webhook events on every single code iteration
+can be tedious! Luckily ngrok has a replay feature that will let you replay an incoming request.
+This way, you only need to generate the event in Github once, then simply press the `Replay` button
+in your ngrok dashboard to send it again! Just beware that the Github service may only take certain
+actions once (e.g, if a comment about missing scopes already exists, it won't add a second one). In
+those cases, you may need to re-create a fresh pull-request / push to reproduce the behaviour you
+want.
+
+# Conclusion
+
 Whew, that was quite a journey. But once everything is in place, it makes iterating on Taskcluster
 Github *so* much faster, while also giving you confidence that your changes are doing what you
-expect without testing in production.
+expect, before hitting production!
 
-Good luck!
+Happy developing and good luck!
 
 
 [18]: https://github.com/taskcluster/taskcluster/blob/main/docker/env/.auth
