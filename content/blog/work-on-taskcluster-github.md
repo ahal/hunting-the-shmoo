@@ -53,16 +53,16 @@ git clone https://github.com/taskcluster/taskcluster
 cd taskcluster
 ```
 
-You'll need a specific version of `node` to run various operations in the repo. You can inspect
-`.nvmrc` to see the current required version, but as of the time of this writing it's `16.18.0`.
-It's recommended to use [nvm][7.5] to facilitate this. Follow the installation instructions, then run:
+You'll need a specific version of `node` to run various operations in the repo. It's recommended to
+use [nvm][7.5] to facilitate this. Follow the installation instructions, then run:
 
 ```bash
-nvm install 16.18.0
-nvm use 16.18.0
+nvm install
+nvm use
 ```
 
-You'll also want `yarn`:
+This will automatically install the correct version defined in `.nvmrc`. You'll also want `yarn`:
+
 ```bash
 npm install -g yarn
 ```
