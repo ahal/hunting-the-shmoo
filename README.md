@@ -11,7 +11,9 @@ Generate the site:
 hugo
 ```
 
-Deploy to production:
+Generate the site and open a live reload web server:
 ```bash
-./deploy
+hugo -d
 ```
+
+Deploys happen on push to the `prod` branch via Github Actions
