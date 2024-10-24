@@ -7,7 +7,6 @@ copyright: "© 2018 Andrew Halberstadt"
 languageCode: "en-us"
 theme: "hugo-theme-bootstrap4-blog"
 
-paginate: 10
 sectionPagesMenu: "navbar"
 
 permalinks:
@@ -15,6 +14,8 @@ permalinks:
   casts: "/casts/:year/:slug/"
   page: "/:slug/"
 
+pagination:
+  pagerSize: 10
 
 menu:
   navbar:
