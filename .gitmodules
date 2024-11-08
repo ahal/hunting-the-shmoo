@@ -1,4 +1,4 @@
 [submodule "themes/hugo-theme-bootstrap4-blog"]
 	path = themes/hugo-theme-bootstrap4-blog
-	url = https://github.com/alanorth/hugo-theme-bootstrap4-blog
-	branch = master
+	url = https://github.com/ahal/hugo-theme-bootstrap4-blog
+	branch = fix_deprecations
