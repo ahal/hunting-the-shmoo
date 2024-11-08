@@ -209,9 +209,9 @@ Accidentally forgot to update to a change before saving the file? No problem,
 ### Obsolete Changes
 
 Mercurial and Jujutsu both have a concept of _obsolete_ changes. This is
-related to history editing, but moreso around what happens afterwards.
-When you edit a change, there's something going on under the hood! You're
-actually creating a brand new and the old one is marked obsolete.
+related to history editing, but moreso around what happens afterwards. When you
+edit a change, there's something going on under the hood! You're actually
+creating a brand new change and the old one is being marked obsolete.
 
 In Mercurial's implementation (called [changeset evolution]), it's possible to
 have "orphan" changes. For example, if you have the history:
@@ -229,7 +229,7 @@ A -> B -> C
 
 In Mercurial, `B` is now said to be "obsolete" and `C` is said to be "orphaned".
 You as the user are now responsible for moving `C` on top of `B'` (either via
-rebasing or special commands designed to deal with this secnario).
+rebasing or special commands designed to deal with this scenario).
 
 Jujutsu does the exact same thing, except the last step happens automatically.
 You'll never see an orphaned change in the log because whenever you edit
@@ -335,7 +335,7 @@ box, is a very intuitive user experience.
 As I said in the intro, I love to tinker with my workflows, but I can also
 appreciate a well designed tool that needs little to no configuration. Jujutsu
 is that. In my opinion, poor defaults (and a too strict adherence to preserving
-backwards comptaibility) is one of the reasons Mercurial failed to take off, so
+backwards compatibility) is one of the reasons Mercurial failed to take off, so
 I'm glad to see Jujutsu learning lessons here.
 
 ### Performance
@@ -349,7 +349,7 @@ file watching, which raises the bar even higher).
 
 Ironically, one of the things I appreciate about Jujutsu, is that they _don't_
 prioritize performance. There's lots of examples where Jujutsu makes a
-concsious decision to prioritize ease of use over performance. I touched on one
+conscious decision to prioritize ease of use over performance. I touched on one
 example in the _Changeset Evolution_ section, where Jujutsu implicitly
 rebases your stack anytime you re-write history. This prioritizes usability
 over performance, but this trade-off is only possible thanks to how fast
