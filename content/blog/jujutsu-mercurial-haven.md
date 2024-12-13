@@ -168,9 +168,13 @@ to change ids and their prefixes, I haven't even been using bookmarks at all.
 
 Like Mercurial, Jujutsu has really nice history editing capabilities. There's
 some things that are nicer, but also a few features missing. Most notably on
-the missing front, are an equivalent to `hg histedit` (or `git rebase -i`) and
-`hg absorb`. I think these just haven't been implemented yet, and I suspect
+the missing front, are an equivalent to `hg histedit` (or `git rebase -i`) ~and
+`hg absorb`~. I think these just haven't been implemented yet, and I suspect
 they'll make their way into the feature set eventually.
+
+*Edit: `jj absorb` was implemented just days after this writing and is
+available as of Jujutsu 0.24.0. It also seems to be an improvement on
+Mercurial's implementation.*
 
 I wouldn't say that Jujutsu's history editing is much better than Mercurial's,
 the latter's is already very very good. But there are a few things I appreciate
