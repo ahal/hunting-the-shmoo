@@ -153,7 +153,8 @@ apparatus of choice on standby.
 Setup Jujutsu
 -------------
 
-Now for the last bit, setting up Jujutsu!
+Now for the last bit, setting up Jujutsu! If you haven't already, make sure you
+[have it installed]. Be sure to install at least version `0.26`.
 
 1. Initialize a co-located repository:
 
@@ -225,6 +226,7 @@ this tutorial. Instead take a look at Steve Klabnik's [Jujutsu Tutorial]. I do
 want to touch on a few `mozilla-unified` specific points though, so read on for
 that.
 
+[have it installed]: https://jj-vcs.github.io/jj/latest/install-and-setup/
 [Jujutsu Tutorial]: https://steveklabnik.github.io/jujutsu-tutorial/
 
 Jujutsu in mozilla-unified
