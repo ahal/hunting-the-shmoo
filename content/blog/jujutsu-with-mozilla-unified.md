@@ -176,6 +176,9 @@ Now for the last bit, setting up Jujutsu!
    Then add the following:
 
    ```toml
+   [git]
+   subprocess = true
+
    [revset-aliases]
    "trunk()" = "central@origin"
    "immutable_heads()" = '''
@@ -189,11 +192,17 @@ Now for the last bit, setting up Jujutsu!
    | remote_bookmarks('release')
    '''
    ```
+   
+   Setting `git.subprocess=true` tells Jujutsu to shell out to Git rather than
+   relying on libgit2. Without this change, running `jj git fetch` will fail as
+   it can't understand the `hg::` urls. This option will default to `true` in a
+   future release anyway.
 
-   The first revset tells Jujutsu which bookmark contains the mainline
-   development, in this case the `central` branch. The second revset provides
-   a list of changes that should be considered immutable. In our case, that's
-   anything under one of the Firefox trees in `mozilla-unified`.
+   As far as the revset aliases go, the first alias tells Jujutsu which
+   bookmark contains the mainline development, in this case the `central`
+   branch. The second revset provides a list of changes that should be
+   considered immutable. In our case, that's anything under one of the Firefox
+   trees in `mozilla-unified`.
 
 3. Track remote bookmarks. This is optional, but I like to track any remote
    bookmarks that I might be working with. Mainly because I like to exclude
