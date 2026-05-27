@@ -1,5 +1,5 @@
 ---
-title: "Your Job is to Integrate"
+title: "Your New Job is Integrating Code"
 date: 2026-05-26T09:50:00-04:00
 tags: [mozilla, llm, productivity]
 slug: integrate
